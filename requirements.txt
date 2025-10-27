@@ -1,3 +1,4 @@
 requests
 ipykernel
-pyspark
+dotenv
+boto3
