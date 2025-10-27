@@ -1,0 +1,4 @@
+requests
+pytest
+dotenv
+boto3
