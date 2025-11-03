@@ -2,3 +2,4 @@ requests
 pytest
 dotenv
 boto3
+pyspark

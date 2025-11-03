@@ -108,7 +108,7 @@ def save_to_s3(data, today_date):
     """
     try:
         s3 = boto3.client('s3', region_name=AWS_REGION)
-        key = f'{today_date}/recent_tracks.json'
+        key = f'{today_date}/{today_date}_recent_tracks.json'
         
         s3.put_object(
             Bucket=RAW_S3_BUCKET_NAME, 
