@@ -1,6 +1,6 @@
 import json
 import pytest
-import lambda_function
+from get_spotify_api_data import lambda_function
 
 # 1️⃣ Test: il file si importa correttamente e le funzioni esistono
 def test_functions_exist():
