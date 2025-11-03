@@ -1,0 +1,4 @@
+requests
+
+dotenv
+boto3
