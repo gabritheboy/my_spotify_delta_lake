@@ -192,3 +192,4 @@ It showcases the ability to **design, automate, and orchestrate** an **end-to-en
 
 > 💭 *Would you like me to add a “Quick Start / Setup” section (env vars, AWS setup, local simulation)?*  
 That would make it perfect for recruiters or collaborators who want to **clone and run** your project.
+
