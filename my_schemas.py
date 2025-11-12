@@ -1,8 +1,0 @@
-import json
-from pyspark.sql.types import StructType
-
-
-# schema JSON incollato solo qui una volta
-_artists_schema_json = '{"fields":[{"metadata":{},"name":"artists","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"external_urls","nullable":true,"type":{"fields":[{"metadata":{},"name":"spotify","nullable":true,"type":"string"}],"type":"struct"}},{"metadata":{},"name":"followers","nullable":true,"type":{"fields":[{"metadata":{},"name":"href","nullable":true,"type":"string"},{"metadata":{},"name":"total","nullable":true,"type":"long"}],"type":"struct"}},{"metadata":{},"name":"genres","nullable":true,"type":{"containsNull":true,"elementType":"string","type":"array"}},{"metadata":{},"name":"href","nullable":true,"type":"string"},{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"images","nullable":true,"type":{"containsNull":true,"elementType":{"fields":[{"metadata":{},"name":"height","nullable":true,"type":"long"},{"metadata":{},"name":"url","nullable":true,"type":"string"},{"metadata":{},"name":"width","nullable":true,"type":"long"}],"type":"struct"},"type":"array"}},{"metadata":{},"name":"name","nullable":true,"type":"string"},{"metadata":{},"name":"popularity","nullable":true,"type":"long"},{"metadata":{},"name":"type","nullable":true,"type":"string"},{"metadata":{},"name":"uri","nullable":true,"type":"string"}],"type":"struct"},"type":"array"}}],"type":"struct"}'
-
-artists_schema = StructType.fromJson(json.loads(_artists_schema_json))
