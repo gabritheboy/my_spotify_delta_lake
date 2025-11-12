@@ -29,7 +29,7 @@ flowchart LR
   G -->|Fetch new metadata| H[(Bronze Dimensional Tables)]
   H -->|Autoloader| I[Silver Dimensional Tables]
   I --> J[(Future: Gold Layer + Streamlit Dashboard)]
-%%
+'''
 
 ⚙️ Components Breakdown
 1. Lambda — get_user_recent_played_spotify_data
@@ -229,6 +229,7 @@ Freelance Data Engineer & Entrepreneur
 
 Would you like me to add a **small “Quick Start / Setup” section** at the end (with environment variables, AWS setup, and how to simulate the event locally)?  
 That would make it perfect for recruiters or collaborators who might want to clone and run your project.
+
 
 
 
