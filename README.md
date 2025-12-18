@@ -186,10 +186,12 @@ It showcases the ability to **design, automate, and orchestrate** an **end-to-en
 **Gabriele**  
 💼 *Freelance Data Engineer & Entrepreneur*  
 📍 *Building Data Products, Pipelines & Dashboards*  
-🔗 [LinkedIn] • [Portfolio] • [Spotify Developer Docs]
+🔗 [[Linkedin](https://www.linkedin.com/in/gabriele-crimi/)] • [[Portfolio](https://www.gabrielecrimi.tech/)] • [Spotify Developer Docs]
 
 ---
 
 > 💭 *Would you like me to add a “Quick Start / Setup” section (env vars, AWS setup, local simulation)?*  
 That would make it perfect for recruiters or collaborators who want to **clone and run** your project.
+
+
 
